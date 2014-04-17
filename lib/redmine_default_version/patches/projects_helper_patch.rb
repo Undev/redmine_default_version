@@ -10,7 +10,7 @@ module RedmineDefaultVersion
 
       module InstanceMethods
         def version_options_for_select_with_default_version_option(versions, selected=nil)
-          if @project
+          if action_name != 'bulk_edit' && @project
             selected = @project.default_version if selected.nil?
           end
           version_options_for_select_without_default_version_option(versions, selected)
