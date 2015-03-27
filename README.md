@@ -1,4 +1,4 @@
-Redmine Default Version Plugin
+# Redmine Default Version Plugin
 
 [![Build Status](https://travis-ci.org/Undev/redmine_default_version.png)](https://travis-ci.org/Undev/redmine_default_version)
 [![Code Climate](https://codeclimate.com/github/Undev/redmine_default_version.png)](https://codeclimate.com/github/Undev/redmine_default_version)
