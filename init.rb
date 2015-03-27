@@ -9,9 +9,9 @@ dispatcher.to_prepare do
 end
 
 Redmine::Plugin.register :redmine_default_version do
-  name 'Redmine Default Version plugin'
-  author 'Tony Marschall'
-  description 'With this plugin its possible to add a default version to a project. First you have to setup a version then you can choose a default version in project -> settings.'
+  name 'Redmine Default Version Plugin'
+  author 'Tony Marschall, Undev'
+  description 'This plugin enables specifying a default project version.'
   version '0.0.3'
   url ' https://github.com/benasher44/redmine_default_version/'
 end
