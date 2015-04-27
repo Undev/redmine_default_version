@@ -25,12 +25,17 @@ This plugin version is compatible only with Redmine 2.1 and later.
       Copy the plugin from GitHub using the following commands:
       
             git clone https://github.com/Undev/redmine_default_version.git plugins/redmine_default_version
-            
-2. This plugin requires a migration. Run the following command to upgrade your database (make a database backup before):  
+
+2. Update the Gemfile.lock file by running the following commands:  
+
+         rm Gemfile.lock  
+         bundle install
+           
+3. This plugin requires a migration. Run the following command to upgrade your database (make a database backup before):  
 
         bundle exec rake redmine:plugins:migrate RAILS_ENV=production
             
-3. Restart Redmine.
+4. Restart Redmine.
 
 Now you should be able to see the plugin in **Administration > Plugins**.
 
