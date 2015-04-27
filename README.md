@@ -47,6 +47,10 @@ If there are any project versions specified, the plugin adds the **Default versi
 After you set a project version as default, this version will be automatically specified as the target version when you create a new issue for this project.  
 ![default version applied](default_version_2.PNG)
 
+## Maintainers
+
+Danil Tashkinov, [github.com/nodecarter](https://github.com/nodecarter)
+
 ## License
 
 This plugin is licensed under the GNU GPL v2. 
